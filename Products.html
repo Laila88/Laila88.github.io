@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Products</title>
+    <link rel="stylesheet" type="text/css" href="Main.css" />
+</head>
+<body>
+    <div id="container">
+        <p id="pagetop"></p>
+        <!-- Side Menu -->
+        <div id="sidebar">
+            <img class="logo" src="LogoWhite.png" />
+            <ul class="top-level">
+                <li>
+                    <a href="index.html">
+                        <img class="icon" src="Home.png" /><br />
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="FAQ.html">
+                        <img class="icon" src="About.png" /><br />
+                        FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="ContactUs.html">
+                        <img class="icon" src="Contact2.png" /><br />
+                        Contact Us
+                    </a>
+                </li>
+                <li>
+                    <a href="Products.html">
+                        <img class="icon" src="Prod.png" /><br />
+                        Products
+                    </a>
+                    <ul class="second-level">
+                        <li><a href="Products.html">All</a></li>
+                        <li><a href="#">PC</a></li>
+                        <li><a href="#">PS4</a></li>
+                        <li><a href="#">PS3</a></li>
+                        <li><a href="#">XboxOne</a></li>
+                        <li><a href="#">Xbox 360</a></li>
+                        <li><a href="#">Switch</a></li>
+                        <li><a href="#">3DS</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Top Menu -->
+        <div id="topbar">
+            <form>
+                <input class="topbox" type="text" name="txtEmail" placeholder="Email" />
+                <input class="topbox" type="password" name="txtPassword" placeholder="Password " />
+                <input class="topbtn" type="submit" value="Login" />
+                |
+                <a href="#">Register</a>
+                |
+                <a href="#">ForgotPassword</a>
+                |
+                <img src="Cart.png" />
+                <a href="">Cart</a>
+            </form>
+        </div>
+
+        <!-- Body -->
+        <div id="content">
+            
+            <div id="PrTop">
+                <input class="PrText" type="search" name="search_products" placeholder="What are you looking for?" />
+                <select class="PrText">
+                    <option value="all" selected="selected">All Platforms</option>
+                    <option value="ps4">PS4</option>
+                    <option value="ps3">PS3</option>
+                    <option value="pc">PC</option>
+                    <option value="xboxone">Xbox One</option>
+                    <option value="xbox360">Xbox 360</option>
+                    <option value="switch">Switch</option>
+                    <option value="ds">DS</option>
+                </select>
+                <input class="Psbtn" type="submit" name="submit_search" value="Search" /> 
+            </div>
+            <div id="PrOptions">
+                <label class="Prlabel">Sort by:</label>
+                <select class="PrText">
+                    <option value="new" selected="selected">New to Old </option>
+                    <option value="name">Name</option>
+                    <option value="dev">Developer</option>
+                    <option value="pricehigh">Price (High to Low)</option>
+                    <option value="pricelow">Price (Low to High)</option>
+                </select>
+                <label class="Prlabel">Product Per Page:</label>
+                <select class="PrText">
+                    <option value="ten" selected="selected">10</option>
+                    <option value="fifty">50</option>
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <div id="Products"> 
+                <div class="prgame"> 
+                    <img src="Products/Stardew_Valley_Collectors_Edition.png" /><br />
+                    Stardew Valley Collector's Edition<br />
+                    <span>$45</span><br />
+                    <input class="AddCart" type="button" name="add_cart" value="Add to Cart"/>
+                </div>
+
+                <div class="prgame">
+                    <img src="Products/Dark_Souls_3_The_Fire_Fades_PC.png" /><br />
+                    Dark Souls 3: The Fire Fades Edition<br />
+                    <span>$55</span><br />
+                    <input class="AddCart" type="button" name="add_cart" value="Add to Cart" />
+                </div>
+
+                <div class="prgame">
+                    <img src="Products/Dark_Souls_3_The_Fire_Fades_PS4.png" /><br />
+                    Dark Souls 3: The Fire Fades Edition<br />
+                    <span>$68</span><br />
+                    <input class="AddCart" type="button" name="add_cart" value="Add to Cart" />
+                </div>
+
+                <div class="prgame">
+                    <img src="Products/Dead_Rising_4.png" /><br />
+                    Dead Rising 4<br />
+                    <span>$54</span><br />
+                    <input class="AddCart" type="button" name="add_cart" value="Add to Cart" />
+                </div>
+
+                <div class="prgame">
+                    <img src="Products/Lego_Worlds_X.png" /><br />
+                    Lego Worlds<br />
+                    <span>$32</span><br />
+                    <input class="AddCart" type="button" name="add_cart" value="Add to Cart" />
+                </div>
+
+                <div class="prgame">
+                    <img src="Products/Lego_Worlds_PS4.png" /><br />
+                    Lego Worlds<br />
+                    <span>$32</span><br />
+                    <input class="AddCart" type="button" name="add_cart" value="Add to Cart" />
+                </div>
+
+                <div class="prgame">
+                    <img src="new5_P5.jpg" /><br />
+                    Persona 5<br />
+                    <span>$79</span><br />
+                    <input class="AddCart" type="button" name="add_cart" value="Add to Cart" />
+                </div>
+
+            </div>
+        </div>
+        <div id="footer">
+            <a href="#pagetop">Back to top</a>
+        </div>
+
+    </div>
+</body>
+</html>

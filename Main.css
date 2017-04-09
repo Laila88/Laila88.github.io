@@ -1,0 +1,414 @@
+body {
+    color: white;
+    background-image: url("OC1Y8E0.jpg");
+    background-repeat: repeat;
+}
+
+#container {
+    width: 70%;
+    margin: auto;
+}
+
+#sidebar {
+    width: 6%;
+    height: 100%;
+    float: left;
+    border: 1px solid #121212;
+    background-color: #191919;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: fixed;
+    font-family: 'Blogger Sans';
+    font-size: 20px;
+}
+
+.logo {
+    width: 100px;
+    margin: auto;
+    display: block;
+    padding: 5px;
+}
+
+.icon {
+    width: 35px;
+}
+
+
+ul.top-level, ul.second-level {
+    list-style-type: none;
+    position: absolute;
+    text-align: center;
+    left: -40px;
+}
+
+ul.top-level li, ul.second-level li {
+    margin-top: 5px;
+    display:block;
+    }
+
+ul.top-level a, ul.second-level a {
+    text-decoration: none;
+    display: block;
+    color: #c1c1c1;
+    text-transform: uppercase;
+    font-size: 20px;
+    }
+
+ul.top-level{
+    width: 100%;
+}
+
+ul.top-level li {
+    width: 100%;
+    height: 70px;
+}
+
+ul.second-level {
+    text-align:left;
+    width:90px;
+    display:none;
+}
+
+ul.second-level li {
+    width: 100%;
+    height: 30px;
+    position:relative;
+    left:55px;
+    top:9px;
+}
+
+ul.top-level li:hover > ul {
+    display: inline;
+}
+
+
+ul.top-level li:hover{
+    background-color:black;
+}
+ul.second-level li:hover{
+    background-color:unset;
+    
+}
+
+
+#topbar {
+    width: 90%;
+    height: 45px;
+    border: 1px solid #121212;
+    background-color: #191919;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    float: right;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 5px;
+    font-family:calibri;
+    
+}
+.topbox{width:20%;}
+.topbtn{width:5%;}
+#topbar a{
+    text-decoration:none;
+    color:#c1c1c1;
+}
+#topbar img{
+    width:15px;
+}
+
+#content {
+    width: 91%;
+    height:auto;
+    float: left;
+    position: relative;
+    left: 127px;
+    top: 10px;
+    border: 1px solid #121212;
+    background-color: #191919;
+    border-radius: 25px;
+}
+
+#Aboutus {
+    float: left;
+    border: 1px solid #121212;
+    border-radius:25px;
+    background-color: lightgrey;
+    margin: 5px;
+    width: 710px;
+    height: 550px;
+    text-align: justify;
+    padding: 20px;
+    color:black;
+    font-family:calibri;
+    font-size:16px;
+}
+
+#rightside {
+    float: left;
+    width: 380px;
+    height: 400px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: 1px solid #121212;
+    border-radius:25px;
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 20px;
+    color:black;
+    font-size:16px;
+    font-family:cambria;
+}
+
+    #rightside img {
+        width: 240px;
+        margin: auto;
+        display: block;
+        margin-bottom: 20px;
+        border-radius:15px;
+    }
+
+    #rightside form {
+        margin-top: 5px;
+    }
+
+#rightsidetext {
+    width: 300px;
+}
+
+
+#comingsoon {
+    width: 90%;
+    height: 430px;
+    float: left;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    color: black;
+    border: 1px solid #121212;
+    border-radius:25px;
+    background-color: lightgrey;
+}
+
+.date{
+    font-size:12px;
+    color:grey;
+}
+
+#newreleases {
+    width: 90%;
+    height: 400px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    border: 1px solid #121212;
+    border-radius:25px;
+    background-color: lightgrey;
+}
+
+#comingsoon img {
+    height: 220px;
+}
+
+#newreleases img {
+    height: 220px;
+}
+
+.boxtitle {
+    
+    text-align: left;
+    font-family:calibri;
+    margin-left:20px;
+}
+
+.game {
+    float: left;
+    margin: 5px;
+    width: 200px;
+}
+#footer{
+    width: 90%;
+    height: 45px;
+    border: 1px solid #121212;
+    background-color: #191919;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    float: right;
+    text-align: right;
+    padding-top:10px;
+    padding-right:20px;
+    margin-top:20px;
+    font-family:calibri;
+}
+#footer a{
+    color:#c1c1c1;
+}
+
+
+
+
+#content h2{
+    text-shadow:1px 1px 2px black;
+}
+#content h1{
+    text-shadow:1px 1px 2px black;
+}
+
+
+#FAQtop{
+    float: left;
+    margin: 5px;
+    width: 1150px;
+    height: 130px;
+    text-align: justify;
+    padding: 20px;
+    color:white;
+    font-family:calibri;
+    font-size:16px;
+    text-shadow:5px 2px 2px black;
+}
+#FAQ{
+    float: left;
+    border: 1px solid #121212;
+    border-radius:25px;
+    background-color: lightgrey;
+    margin: 5px;
+    width: 1050px;
+    height: auto;
+    text-align: justify;
+    padding: 20px;
+    color:black;
+    font-family:calibri;
+    font-size:16px;
+    position:relative;
+    left:45px;
+}
+#shipping{
+    float: left;
+    border: 1px solid #121212;
+    border-radius:25px;
+    background-color: lightgrey;
+    margin: 5px;
+    width: 1050px;
+    height: auto;
+    text-align: justify;
+    padding: 20px;
+    color:black;
+    font-family:calibri;
+    font-size:16px;
+    position:relative;
+    left:45px;
+}
+#shipping ul{
+    list-style-type: square;
+}
+#shipping table, th, td{
+    border:1px solid #121212;
+    border-collapse: collapse;
+    padding:10px;
+    background-color: white;
+    text-align: center;
+    margin:auto;
+}
+.smalltitle{
+    font-size:20px;
+    font-weight: bold;
+}
+.red{
+    color:darkred;
+}
+
+
+#contactform{
+    float: left;
+    border: 1px solid #121212;
+    border-radius:25px;
+    background-color: lightgrey;
+    margin: 5px;
+    width: 1050px;
+    height: auto;
+    text-align: justify;
+    padding: 20px;
+    color:black;
+    font-family:calibri;
+    font-size:16px;
+    position:relative;
+    left:45px;
+    
+}
+#contactform label{
+    display:inline-block;
+    width:120px;
+    margin:3px;
+}
+#contactform select, textarea, .textbox {
+    margin:3px;
+    width:300px;
+}
+.button{
+    width:130px;
+    height:40px;
+    font-weight: bold;
+    float:right;
+    background-color: #191919;
+    color:white;
+    border:1px solid #191919;
+    border-radius:10px;
+    margin:5px;
+}
+#radiobuttons{
+    text-align:left;
+    width:160px;
+    position:relative;
+    left:131px;
+    top:-20px;
+}
+
+
+
+#Products{
+    width: 95%;
+    height: auto;
+    float: left;
+    margin: 10px;
+    padding:20px;
+    position: relative;
+    text-align: center;
+    color: black;
+    border: 1px solid #121212;
+    border-radius:25px;
+    background-color: lightgrey;
+    font-family:calibri;
+}
+#PrTop, #PrOptions{
+    padding-left:20px;
+    padding-top:15px;
+    font-family:calibri;
+}
+#PrTop .PrText{
+    width:300px;
+}
+#PrOptions .PrText{
+    width:150px;
+}
+
+.prgame img{
+    height:250px;
+    width:auto;
+}
+.prgame{
+    float:left;
+    position:relative;
+    left:20px;
+    margin:10px;
+    width:250px;
+    height:auto;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.AddCart{
+    background-color: #48a0dc;
+    border-color:#191919;
+    
+}
